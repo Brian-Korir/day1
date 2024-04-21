@@ -1,7 +1,41 @@
 .{
-margin:100%;
+margin:0;
 padding:flex;
+box-sizing: border-box;
 }
 body{
 background:#fff;
+font-family: Arial, sans-serif;
+}
+header{
+background-color:#333;
+color: #fff;
+padding: 20px;
+text-align: center;
+}
+main{
+padding: 20px;
+}
+footer{
+background-color: #333;
+color: #fff;
+text-align: center;
+}
+p{
+font-size: 18px;
+line-height: 1.6;
+margin-bottom; 10px:
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }
