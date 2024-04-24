@@ -11,6 +11,176 @@
 <link
  href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
 <style>
+/* Created by Blank User */
+
+/* Created by QURASHI AKEEL */
+
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*font-family:'Satisfy',Cursive;*/
+    font-family: 'Playpen Sans', cursive;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Helvetica;
+    background-color:#a6f;
+    height: 100vh;
+
+
+form {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:80%;
+    max-width:400px;
+    padding: 2rem;
+    border-radius: 4px;
+    text-align:left;
+}
+
+h1 {
+    font-size: 1.5rem;
+    opacity: 75%;
+    margin-bottom: 0.5rem;
+    color:#222;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.social-link {
+    border: none;
+    padding: 0.5rem;
+    width: 45%;
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    font-size: 0.8rem;
+    justify-content: center;
+    border-radius: 3px;
+    border:2px solid #fff;
+}
+
+.fb {
+    background-color: #1877F2;
+    color: white;
+}
+
+.fb:hover{
+    border:2px solid #1877f2;
+    background-color:#fff;
+    color:#1877f2;
+}
+
+.tw {
+    background-color: #00acee;
+    color: white;
+}
+
+.tw:hover{
+    border:2px solid #00acee;
+    background-color:#fff;
+    color:#00acee;
+}
+
+input {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    outline-color:#49f;
+}
+
+.fp {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+p {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+
+}
+
+input[type="checkbox"] {
+    margin: 0 4px 0 0;
+    padding: 0;
+    width: 15px;
+    height: 15px;
+}
+
+.check {
+    display: flex;
+}
+
+a[href="#"] {
+    color: #49f;
+}
+
+.submit {
+    margin: 1rem 0;
+    width: 100%;
+    border-radius: 3px;
+    border:.5px solid #fff;
+    padding: 0.5rem;
+    color: white;
+    background-color: #49f;   
+}
+
+.submit:active{
+    background-color:#fff;
+    color:#49f;
+    border:.5px solid #49f;
+}
+
+img {
+    width: 12px;
+    background-color: white;
+    padding: 2px;
+}
+
+.copy {
+    opacity: 60%;
+    margin: 2rem 0 0 0;
+    padding: 0;
+}
+
+
+
+#logform{
+    display:block;
+}
+
+#signform, #resetform{
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
 </style>
 </head>
 <body>
