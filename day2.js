@@ -5,6 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="logins.css">
 <title>Login / Signup</title>
 
 <link
